@@ -1,8 +1,8 @@
 user_prompt = "Enter a todo:"
 
+todos = []
+
 while True:
-    user_input = input(user_prompt)
-    if user_input == "quit":
-        break
-    else:
-        print(user_input)
+    todo = input(user_prompt)
+    todos.append(todo)
+    print(todos)

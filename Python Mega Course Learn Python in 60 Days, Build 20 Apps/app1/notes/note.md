@@ -27,3 +27,12 @@ Python console: used for throw away code, testing code, and debugging code
 
 While loop
 ![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+list problem 
+![img_3.png](img_3.png)
+
+why use list append instead of list add?
+
+![img_4.png](img_4.png)
