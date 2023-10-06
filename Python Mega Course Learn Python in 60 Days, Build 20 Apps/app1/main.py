@@ -1,10 +1,8 @@
 user_prompt = "Enter a todo:"
-todo1 = input(user_prompt)
-todo2 = input(user_prompt)
-todo3 = input(user_prompt)
 
-todos = [todo1, todo2, todo3]
-print(todos)
-print(type(user_prompt))  # <class 'str'>
-print(type(todos))  # <class 'list'>
-
+while True:
+    user_input = input(user_prompt)
+    if user_input == "quit":
+        break
+    else:
+        print(user_input)
