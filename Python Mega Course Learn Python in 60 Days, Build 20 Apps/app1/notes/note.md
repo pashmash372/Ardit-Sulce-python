@@ -92,3 +92,12 @@ It's stored in documentation.
 If you go to python dot org and then go to the documentation menu, then you should see the documentation
 of Python..
 ```
+
+```swagger codegen
+Q1: When should we use integers and when floats?
+A: Integers represent whole numbers, while floats represent decimal numbers. Therefore, if you are getting the number of eggs, the rank of university students, the number of participants in an event, or other whole numbers from the users, then you know you want to work with integers. On the other hand, if you are working with continuous data such as temperature, speed, etc., you want to work with floats.
+Q2: Why do we use parenthesis in functions (e.g., input() and print()) and square brackets when accessing list items (e.g., todos[3]?
+A: That is part of the deal/convention/syntax, so the interpreter knows exactly what you are trying to do. In this case, it would help the interpreter understand whether you are calling a function or accessing a list item.
+Q3: Why does indexing start from zero?
+A: It is a common design choice across (almost?) all languages. If you have trouble wrapping your mind about the zero-origin system, think of it as a coordinate system that starts from zero and think of the indices as offsets from the origin.
+```
