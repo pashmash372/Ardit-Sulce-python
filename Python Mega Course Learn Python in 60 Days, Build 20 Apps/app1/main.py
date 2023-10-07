@@ -7,10 +7,12 @@ while True:
         case "add":
             todo = input("Enter a todo: ")
             todos.append(todo)
-        case "show":
+        case "show" | "display":
             for todo in todos:
+                todo = todo.title()
                 print(todo)
         case "exit":
             break
-
+        case _:
+            print("Invalid action")
 print("Bye!")
