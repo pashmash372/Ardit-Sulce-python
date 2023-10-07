@@ -36,3 +36,31 @@ list problem
 why use list append instead of list add?
 
 ![img_4.png](img_4.png)
+
+```python
+# capitalize vs title
+# capitalize: first letter of the string
+# title: first letter of each word in the string
+#
+# "hello world".capitalize()  # "Hello world"
+# "hello world".title()  # "Hello World"
+# "hello world".upper()  # "HELLO WORLD"
+# "HELLO WORLD".lower()  # "hello world"
+
+```
+
+How to find the code you need 
+
+![img_5.png](img_5.png)
+
+You can use python console to find the code you need
+use dir(str) to find all the methods of a string
+
+help(str.upper) to find the documentation of a method
+
+help(list.append) to find the documentation of a method
+more info: https://docs.python.org/3/library/stdtypes.html#string-methods
+
+
+import builtins
+dir(builtins) to find all the built-in functions
